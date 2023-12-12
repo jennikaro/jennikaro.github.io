@@ -1,0 +1,19 @@
+html{
+    
+	background-color:#F3D5B5;
+}
+
+.container{
+    background-color: #F3D5B5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.col-md-4box{
+    border: 0px;
+}
+
+.body{
+
+    max-width: 900px;
+	margin: auto; 
+}

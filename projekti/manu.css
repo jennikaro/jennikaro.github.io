@@ -1,12 +1,89 @@
 html{
     
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	color: saddlebrown;
-	background-color:lightgoldenrodyellow;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color:#582F0E;
+	background:linear-gradient(to bottom, white,white, #F3D5B5);
 
 
 }
 
-h1{font-size: 70px;
-	text-align: center;;
+h1{font-size: 100px;
+	text-align:center
+    
+
 }
+
+.custom-font {
+    font-family: 'Bebas Neue', sans-serif;
+    ;
+}
+
+.box-container {
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 0px solid #ccc;
+    overflow: hidden;
+    box-shadow:black;
+}
+
+
+/* Style for the text content */
+.text-content {
+    float: left;
+    width: 60%; /* Adjust as needed */
+}
+
+/* Style for the image */
+.box-image {
+    float: right;
+    width: 30%; /* Adjust as needed */
+    margin-left: 20px; /* Add some space between text and image */
+}
+
+.body{
+    max-width: 900px;
+	margin: auto; 
+}
+
+/* Ensure the image is responsive */
+.box-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+
+}
+
+.image-container{
+
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    align-items: center;
+
+}
+
+slider-container {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 300px; /* Adjust as needed */
+    border: 5px solid #ccc;
+    margin: 20px;
+}
+
+/* Style for the sliding text */
+.slider-content {
+    font-size: 25px;
+    animation: slide 25s linear infinite;
+}
+
+/* Keyframes for the sliding animation */
+@keyframes slide {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+    
